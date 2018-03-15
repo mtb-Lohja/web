@@ -43,4 +43,4 @@ Palautusjuomien nautiskelua ravintola OpusK:ssa klo 18.00 alkaen. Klo 22 esiinty
 
 Tervetuloa!
 
-** MTB-Lohja **
+**MTB-Lohja**
