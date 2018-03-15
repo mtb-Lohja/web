@@ -4,8 +4,6 @@ date: "2016-04-14"
 title: "MTB-Lohjan kevät 2016"
 author: "MTB-Lohja"
 ---
-# MTB-Lohjan kevät 2016
-
 Kevät tuli, lumi suli, puro sanoi puli-puli.....
 
 MTB­-Lohja on siirtynyt kevätaikaan. Viikkolenkit ajetaan seuraavasti:

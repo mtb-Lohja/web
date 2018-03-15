@@ -1,12 +1,9 @@
 ---
 path: "/oktoberfest-2017"
 date: "2017-09-26"
-title: "Oktoberfest 2017"
+title: "Oktoberfest XVII, Lohja 30.9.2017"
 author: "MTB-Lohja"
 ---
-Oktoberfest XVII, Lohja 30.9.2017
-=================================
-
 MTB-Lohja toy (täysin olematon yhdistys) järjestää Oktoberfest maasto-/retkiajotapahtuman Lohjalla lauantaina 30.9.2017. Seitsemästoista Lohjan Oktoberfest ajetaan tänä vuonna Suomi 100-teemalla, tule Lohjalle katsomaan mitä tämä tarkoittaa. Osallistuminen on tänä vuonna, niin kuin aina ennenkin, täysin ilmaista.
 
 Lähtöpaikkana on jälleen Lohjan Liikuntakeskuksen jäähallin hiekkaparkki, osoite Runokatu 1, ajo hiekkaparkkiin Rajavartiostonkadun kautta, seuraa VT 25:lta opasteita. Pysäköinti on ilmainen. Lähtö klo 12, jakautuminen ryhmiin alkaa n. 11:40, jolloin jokaisen tulisi olla jo valmiina pyörän päällä, saavuthan siis paikalle ajoissa. Paluu jäähallille noin kello 16.

@@ -4,8 +4,6 @@ date: "2016-09-26"
 title: "MTB-Lohjan syksy 2016"
 author: "MTB-Lohja"
 ---
-# MTB-Lohjan syksy 2016
-
 Hyvää Oktoberin jälkeistä elämää...
 
 MTB­-Lohja on siirtynyt syysaikaan. Viikkolenkit ajetaan ennen talviaikaan siirtymistä toistaiseksi seuraavasti:

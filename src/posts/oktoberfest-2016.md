@@ -4,8 +4,6 @@ date: "2016-08-15"
 title: "Oktoberfest 2016"
 author: "MTB-Lohja"
 ---
-# Oktoberfest 17.9.2016
-
 Se on taas täällä - nimittäin Lohjan Oktoberfest XVI. Toivotamme kaikki maastopyöräilyn ystävät, sekä uudet että wanhat, tervetulleeksi ajokauden päätösajoon Lohjalle lauantaina 17.9. klo 11.00-15.00.
 
 ![Oktober 2016](/img/oktober-2016-kutsu.jpg)
