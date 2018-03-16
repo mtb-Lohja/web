@@ -2,7 +2,7 @@
 path: "/fillarimaailman-uutiset"
 date: "2007-02-11"
 title: "Fillarimaailman uutiset"
-author: "MTB-Lohja toy"
+author: "Kimmo Koskinen"
 ---
 MTB-Lohja.com monipuolistaa sisältöään. Uutiset päivitetään aluksi kerran viikossa.
 
