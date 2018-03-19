@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from 'react-helmet'
 
-export default function Template({ data }) {
+export default function FrontPageTemplate({ data }) {
   // data.markdownRemark holds our post data
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
@@ -21,8 +21,8 @@ export default function Template({ data }) {
 }
 
 export const pageQuery = graphql `
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query FrontPageBlogPostByPath($post: String!) {
+    markdownRemark(frontmatter: { path: { eq: $post } }) {
       html
       frontmatter {
         date(formatString: "D.M.YYYY")

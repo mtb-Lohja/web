@@ -10,6 +10,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
   const blogPostTemplate = path.resolve(`src/templates/postTemplate.js`);
+  const frontPageTemplate = path.resolve(`src/templates/frontPageTemplate.js`);
 
   return graphql(`
     {
@@ -30,6 +31,19 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
+
+    if (!result.data) {
+      return;
+    }
+
+    // Map the first post as front page
+    createPage({
+      path: "/",
+      component: frontPageTemplate,
+      context: {
+        post: result.data.allMarkdownRemark.edges[0].node.frontmatter.path
+      }
+    });
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({

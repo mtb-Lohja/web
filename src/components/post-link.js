@@ -7,7 +7,7 @@ const PostLink = ({ post }) => (
       {post.frontmatter.title} ({post.frontmatter.date})
     </Link>
     <p>
-    {post.excerpt}
+      {post.excerpt}
     </p>
   </div>
 );
