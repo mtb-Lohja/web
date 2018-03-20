@@ -104,4 +104,5 @@ Eikö muuten olisi hienoa tulla MTB-Lohjan 20v-juhlavuoden Kakkosneloseen 19-20.
 Kesä on edessä! Paljon ajettavia polkuja ajamatta! Katsotaan syksyllä mitä tapahtuu! Toivotaan että tuleva kesä on kaikin puolin mukavampi, lämpimämpi ja leppoisampi kuin aikaisemmat kesät. Kiitos vielä kerran kaikille!
 
 MTB-Lohja Toy puolesta
+
 Kimmo Liljander
