@@ -12,6 +12,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   const blogPostTemplate = path.resolve(`src/templates/postTemplate.js`);
   const frontPageTemplate = path.resolve(`src/templates/frontPageTemplate.js`);
 
+  // Create all markdown-based pages
   return graphql(`
     {
       allMarkdownRemark(

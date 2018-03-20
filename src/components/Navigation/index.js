@@ -21,7 +21,7 @@ class Navigation extends Component {
       },
       "/uutiset": {
         text: "Uutiset"
-      },                  
+      },
       "/24h": {
         text: "MTB-Lohja 24h",
         sub: {
@@ -45,14 +45,14 @@ class Navigation extends Component {
           "/oktoberfest/2011": { text: "2011" },
           "/oktoberfest/2012": { text: "2012" },
           "/oktoberfest/2013": { text: "2013" },
-        }        
-      }, 
+        }
+      },
       "/viikkoajot": {
         text: "Viikkoajot"
-      },            
+      },
       "/foorumi": {
         text: "foorumi"
-      },                  
+      },
       "/tietoa": {
         text: "Mikä?"
       }
@@ -60,27 +60,29 @@ class Navigation extends Component {
 
     let subNav = null;
 
+    // Use given test (.test property in data), or path if not given
+    let reg = (p, path) => 
+      new RegExp("^" + (p.test ? p.test : path) + (p.exact ? "$" : "(.*)$"));
+
     // Iterate through paths and check which one is active
     Object.keys(nav).forEach(path => {
       let cur = nav[path];
-      
-      // Use given test (.test property in data), or path if not given
-      let pathReg = new RegExp("^" + (cur.test ? cur.test : path) + (cur.exact ? "$" : ""));
 
-      if (pathReg.test(location.pathname)) {
+      if (reg(cur, path).test(location.pathname)) {
         cur.active = true;
         subNav = cur.sub;
-      } else if (cur.sub) {
-        // Check if any subpath matches
-        Object.keys(cur.sub).forEach(subpath => {
-          var subReg = new RegExp("^" + subpath);
-          if (subReg.test(location.pathname)) {
-            cur.active = true;
-            cur.sub[subpath].active = true;
-            subNav = cur.sub;
-          }
-        });
       }
+
+      // Check if any subpath matches
+      Object.keys(cur.sub || {}).forEach(subpath => {
+        var subCur = cur.sub[subpath];
+
+        if (reg(subCur, subpath).test(location.pathname)) {
+          cur.active = true;
+          subCur.active = true;
+          subNav = cur.sub;
+        }
+      });
     });
 
     return (
@@ -96,7 +98,7 @@ class Navigation extends Component {
           <ul className="nav-sub">
           {
             Object.keys(subNav).map(p => 
-              <ListLink key={p} to={p} exact={subNav[p].exact} text={subNav[p].text} />
+              <ListLink key={p} to={p} exact={subNav[p].exact} text={subNav[p].text} className={subNav[p].active ? "nav-active" : ""} />
             ) 
           } 
           </ul> : false } 
