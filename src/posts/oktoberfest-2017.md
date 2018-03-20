@@ -1,5 +1,5 @@
 ---
-path: "/oktoberfest-2017"
+path: "/uutiset/oktoberfest-2017"
 date: "2017-09-26"
 title: "Oktoberfest XVII, Lohja 30.9.2017"
 author: "MTB-Lohja"

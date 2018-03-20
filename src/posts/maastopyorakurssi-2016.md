@@ -1,5 +1,5 @@
 ---
-path: "/maastopyorakurssi-2016"
+path: "/uutiset/maastopyorakurssi-2016"
 date: "2016-04-01"
 title: "Maastopyöräkurssi 2016"
 author: "MTB-Lohja"

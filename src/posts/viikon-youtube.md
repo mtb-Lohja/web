@@ -1,5 +1,5 @@
 ---
-path: "/viikon-youtube"
+path: "/uutiset/viikon-youtube"
 date: "2008-09-11"
 title: "Viikon Youtube"
 author: "MTB-Lohja toy"

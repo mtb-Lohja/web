@@ -1,5 +1,5 @@
 ---
-path: "/syksy-2016"
+path: "/uutiset/syksy-2016"
 date: "2016-09-26"
 title: "MTB-Lohjan syksy 2016"
 author: "MTB-Lohja"

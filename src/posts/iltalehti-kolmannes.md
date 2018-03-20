@@ -1,5 +1,5 @@
 ---
-path: "/iltalehti-vain-kolmannes-pyorailijoista-kayttaa-kyparaa"
+path: "/uutiset/iltalehti-vain-kolmannes-pyorailijoista-kayttaa-kyparaa"
 date: "2007-05-15"
 title: "Iltalehti: Vain kolmannes pyöräilijöistä käyttää kypärää"
 author: "MTB-Lohja toy"

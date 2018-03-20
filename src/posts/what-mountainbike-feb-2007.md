@@ -1,5 +1,5 @@
 ---
-path: "/what-mountainbike-february-2007"
+path: "/uutiset/what-mountainbike-february-2007"
 date: "2007-02-11"
 title: "What Mountainbike February 2007"
 author: "MTB-Lohja toy"

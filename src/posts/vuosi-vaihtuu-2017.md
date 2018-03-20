@@ -1,5 +1,5 @@
 ---
-path: "/vuosi-vaihtuu-2017"
+path: "/uutiset/vuosi-vaihtuu-2017"
 date: "2007-12-28"
 title: "Vuosi vaihtuu, Lohjalla poljetaan silti..."
 author: "Mika Latvala"

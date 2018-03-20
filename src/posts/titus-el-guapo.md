@@ -1,5 +1,5 @@
 ---
-path: "/titus-el-guapo"
+path: "/uutiset/titus-el-guapo"
 date: "2007-02-11"
 title: "Titus El Guapo"
 author: "MTB-Lohja toy"

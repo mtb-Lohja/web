@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
+import Navigation from '../components/Navigation'
 
 import './index.css'
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, location }) => (
   <div>
     <Helmet
       title="MTB-Lohja toy"
@@ -24,6 +25,7 @@ const TemplateWrapper = ({ children }) => (
         paddingTop: 0
       }}
     >
+      <Navigation location={location} />
       {children()}
     </div>
   </div>

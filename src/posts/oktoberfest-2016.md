@@ -1,5 +1,5 @@
 ---
-path: "/oktoberfest-2016"
+path: "/uutiset/oktoberfest-2016"
 date: "2016-08-15"
 title: "Oktoberfest 2016"
 author: "MTB-Lohja"

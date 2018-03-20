@@ -1,5 +1,5 @@
 ---
-path: "/maastopyorien-runkomateriaalit"
+path: "/uutiset/maastopyorien-runkomateriaalit"
 date: "2007-08-02"
 title: "Maastopyörien runkomateriaalit"
 author: "MTB-Lohja toy"

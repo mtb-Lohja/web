@@ -1,5 +1,5 @@
 ---
-path: "/fillarimaailman-uutiset"
+path: "/uutiset/fillarimaailman-uutiset"
 date: "2007-02-11"
 title: "Fillarimaailman uutiset"
 author: "Kimmo Koskinen"

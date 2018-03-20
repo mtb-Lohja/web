@@ -1,5 +1,5 @@
 ---
-path: "/kakkosnelonen-taustaa"
+path: "/uutiset/kakkosnelonen-taustaa"
 date: "2010-04-08"
 title: "MTB-Lohja ja Kakkosnelonen"
 author: "MTB-Lohja toy"

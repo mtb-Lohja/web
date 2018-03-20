@@ -1,0 +1,52 @@
+
+nav#nav {
+    color: #000;
+    font-family: Arial Narrow, Arial;
+    font-stretch: condensed;
+	font-size: 11pt;
+    text-align: center;
+
+    a, a:visited {
+        padding: 3px;
+        text-decoration: none;
+        color: #000;
+    }              
+
+    a:hover {
+        border: solid 1px #ccc;
+    }    
+    
+    a.nav-active {
+        font-weight: bold;
+        color: #000;
+        border: solid 1px #000; 
+    }        
+
+    /* Both menu and submenu shared: */
+    ul {
+        width: 100%;
+        list-style: none;
+        padding: 0; 
+        display: flex;
+    }
+    li {
+        display: block;
+        text-align: center;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;   
+    }
+
+    /* Main menu specific styles */
+    ul.nav-main {
+        margin: 0 0 5px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    /* Sub-menu specific styles */
+    ul.nav-sub {
+        margin: 0 0 60px 0;
+        font-size: 16px;
+    }
+}

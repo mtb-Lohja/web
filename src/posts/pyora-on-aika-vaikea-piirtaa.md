@@ -1,5 +1,5 @@
 ---
-path: "/pyora-on-aika-vaikea-piirtaa"
+path: "/uutiset/pyora-on-aika-vaikea-piirtaa"
 date: "2012-05-10"
 title: "Pyörä on aika vaikea piirtää"
 author: "Essi Harju/Länsi-Uusimaa"

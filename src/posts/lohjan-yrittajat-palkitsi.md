@@ -1,5 +1,5 @@
 ---
-path: "/lohjan-yrittajat-ry-palkitsi-kimmo-liljanderin"
+path: "/uutiset/lohjan-yrittajat-ry-palkitsi-kimmo-liljanderin"
 date: "2009-12-10"
 title: "Lohjan yrittäjät ry palkitsi Kimmo Liljanderin"
 author: "MTB-Lohja toy"

@@ -1,5 +1,5 @@
 ---
-path: "/projekti-loppiainen-testaa-helkama-ainotar-3-v"
+path: "/uutiset/projekti-loppiainen-testaa-helkama-ainotar-3-v"
 date: "2007-07-23"
 title: "Projekti Loppiainen testaa: Helkama Ainotar 3-v
 "

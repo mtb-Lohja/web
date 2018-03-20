@@ -1,5 +1,5 @@
 ---
-path: "/vuoden-2017-tapahtumat-ja-tuleva-vuosi"
+path: "/uutiset/vuoden-2017-tapahtumat-ja-tuleva-vuosi"
 date: "2007-10-05"
 title: "MTB-Lohjan vuoden 2007 tapahtumat ja tuleva vuosi"
 author: "Kimmo Liljander"

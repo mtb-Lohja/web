@@ -9,8 +9,10 @@ export default function FrontPageTemplate({ data }) {
     <div className="post-container">
       <Helmet title={`MTB-Lohja toy - ${frontmatter.title}`} />  
       <article className="post">
-        <h1 style={{ marginBottom: "5px" }}>{frontmatter.title}</h1>
-        <p><i>{frontmatter.author}, {frontmatter.date}</i></p>
+        <header>
+          <h1>{frontmatter.title}</h1>
+          <p><i>{frontmatter.author}, {frontmatter.date}</i></p>
+        </header>
         <div
           className="post-content"
           dangerouslySetInnerHTML={{ __html: html }}

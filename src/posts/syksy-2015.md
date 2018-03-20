@@ -1,5 +1,5 @@
 ---
-path: "/syksy-2015"
+path: "/uutiset/syksy-2015"
 date: "2015-09-01"
 title: "MTB-Lohjan syksy 2015"
 author: "MTB-Lohja, kuvat Mika Latvala"

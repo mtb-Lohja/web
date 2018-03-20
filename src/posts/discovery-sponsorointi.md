@@ -1,5 +1,5 @@
 ---
-path: "/discovery-lopettaa-sponsoroinnin"
+path: "/uutiset/discovery-lopettaa-sponsoroinnin"
 date: "2007-02-11"
 title: "Discovery lopettaa sponsoroinnin"
 author: "MTB-Lohja toy"

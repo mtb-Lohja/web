@@ -1,5 +1,5 @@
 ---
-path: "/camelbak-the-bottle"
+path: "/uutiset/camelbak-the-bottle"
 date: "2007-02-11"
 title: "CamelBak The Bottle"
 author: "MTB-Lohja toy"
