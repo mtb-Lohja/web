@@ -1,0 +1,84 @@
+---
+path: "/24h/2008-ilmoittautuneet"
+date: "2008-02-23"
+title: "Ilmoittautuneet"
+author: "MTB-Lohja toy"
+---
+Ilmoittautuneet joukkueet ja soolot:
+
+- 500 Kiloa Lihaa
+- Accenture - paras ei pysähdy
+- Aplico pyörii
+- BC Ekakerta
+- Bikepoli
+- Bikepoli II
+- BikeXpress-OLVI
+- FatBoys Racing Team / MTBTurku.net
+- HABANERO mountainbikers
+- HC-Kaivoksela
+- Hellät Pakarat
+- JK-Shop
+- Kapua
+- Karhukopla
+- Kaupin kanuunat
+- Kerkesix
+- kesport nummela
+- Ketjunpolttajat
+- Koreteks
+- Kuoppis
+- Köyhät pamput
+- likaiset vanhat miehet
+- LOHJAN TÄHDET
+- Loimaan Pojat / Loimaan Latu ry.
+- Martela
+- Max Sport
+- MTB Saukkola
+- MTBCF 1 Tytöt
+- MTBCF 2
+- MTBCF 3
+- MTBCF 4 Junnut
+- MTBCF 5 G-Miehet
+- MTBCF 6
+- Nokia MTB I
+- Nokia MTB II
+- Olli (soolo)
+- Only Biker (soolo)
+- Outrider (soolo)
+- PETEN POPPOO
+- Porsasmatkat
+- pyorahuolto.com
+- Regular People
+- Rudus Itä
+- Salesforce Foundation
+- Santa Monica Networks Team
+- Savonlinnan maastopyöräilijät
+- Sedät
+- Snigel Speed
+- Snigel Speed Jr.
+- Stadin sotkijat
+- Stonesoft MTB
+- Tawast Cycling Club 
+- Team Beneq
+- Team Best Brakes
+- Team Cystrim
+- Team Gecco
+- Team Hiihtäjät
+- Team Lentotekniikkalaitos
+- Team Novo Nordisk
+- Team Trek Finland
+- Team VastaPaine
+- Team VastaPaine Wannabes
+- Team yöhöpinät II
+- Team yöhöpinät™ I
+- Tekniikan Maailma
+- Teknikum - ETRA Chain Gang
+- Tiimi Sohvaperunat
+- Tiirismaan Tiisselit
+- Tompurinmäen Osailijat ry.
+- Traxmeet Virtual Training World
+- Ulla & About Seven Boys / MTB-Turku
+- Vihdin Virtahepo
+- Viherrakennus Oy
+- Viilunikkarit
+- YleX Pelasta kallonen
+- Zeus - yks speedaaja (soolo)
