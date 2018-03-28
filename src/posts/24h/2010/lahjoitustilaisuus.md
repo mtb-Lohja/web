@@ -1,6 +1,6 @@
 ---
 path: "/24h/2010-lasten-ja-nuortensairaalan-lahjoitustilaisuus"
-date: "2010-20-25"
+date: "2010-10-25"
 title: "Lasten- ja Nuortensairaalan lahjoitustilaisuus 2010"
 author: "Kimmo Liljander"
 ---

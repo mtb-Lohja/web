@@ -1,17 +1,17 @@
 import React from "react";
 import PostLinks from "../../components/post-links";
 
-const Mtb24h2010Page = ({ data: { allMarkdownRemark: { edges } } }) => (
+const Mtb24h2011Page = ({ data: { allMarkdownRemark: { edges } } }) => (
   <div>
-    <h2>MTB-Lohja 24h 2010</h2>
-    <PostLinks edges={edges} filter="/24h/2010" />
+    <h2>MTB-Lohja 24h 2011</h2>
+    <PostLinks edges={edges} filter="/24h/2011" />
   </div>
 );
 
-export default Mtb24h2010Page;
+export default Mtb24h2011Page;
 
 export const pageQuery = graphql `
-  query Mtb24h2010IndexQuery {
+  query Mtb24h2011IndexQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       ...posts
     }
