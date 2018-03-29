@@ -9,3 +9,5 @@ Kerhon tärkein toimintamuoto on kesäaikana järjestettävät viikkoajot. Keski
 Tarkista tarvittaessa viimeisin tieto lähtöajasta ja -paikasta [foorumiltamme](http://forum.mtb-lohja.com).
 
 Ajopaikkoja on koottu myös [kartalle](http://ajopaikat.mtb-lohja.com).
+
+Viikkoajojen raportit ja jälkipelit ovat foorumilla, mutta joitain raportteja vuodelta 2007 on [kirjoiteltu tänne nettisivuillekin](/viikkoajot/2007).
