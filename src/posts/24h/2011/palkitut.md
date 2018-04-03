@@ -6,33 +6,33 @@ author: "MTB-Lohja toy"
 ---
 Kuten perinteisiin kuuluu, palkitaan Kakkosnelosen päättyessä parhaista parhaat. Tänä vuonna arvostettu jury päätyi seuraavanlaiseen palkintolistaan.
 
-## Ehdokkaat – ei palkittu
+### Ehdokkaat – ei palkittu
 
-### Team Länskis
+#### Team Länskis
 
 - timin pirteä Ampiainen
 - muiden joukkueiden haastaminen mukaan tapahtumaame ansiokkaasti
 
-### Yöhöpinöiden majakka
+#### Yöhöpinöiden majakka
 
 - pygmiteltta, yhdistetty leija & neuvotteluteltta
 
-### Stadin Sotkijat
+#### Stadin Sotkijat
 
 - sikahieno joukkueen kyltti jarrulevyineen
 
-### PENALTY:t – ei tarvinnut jakaa tänäkään vuonna
+#### PENALTY:t – ei tarvinnut jakaa tänäkään vuonna
 
 - Tarjolla olisi ollut Fjällen vetämä mentaalivalmennusviikonloppu motelli Syvälammella.
 
-### Poliisiauto (saatu 2006 Poliisien joukkueelta) – ei jaeta tänäkään vuonna
+#### Poliisiauto (saatu 2006 Poliisien joukkueelta) – ei jaeta tänäkään vuonna
 
 - tullaan jakamaan sinä vuonna kun on vain yksi väärin pysäköity auto
 - Viime vuonna lupasimme, että 2011 tulemme paketoimaan kiristekalvolla väärinpysäköidyt autot nättiin pakettiin. Ja yhden sisälle laitamme yllätyksellisesti Fjällen kotimatkan ratoksi.
 
-## Palkitut 2011
+### Palkitut 2011
 
-### Erityispalkinto 2011 (lahjoittaja: GARMIN Suomi):
+#### Erityispalkinto 2011 (lahjoittaja: GARMIN Suomi)
 
 Team Myötämäki & Team Tamppaajat -joukkueista seuraavat henkilöt:
 
@@ -40,14 +40,14 @@ Team Myötämäki & Team Tamppaajat -joukkueista seuraavat henkilöt:
 - Taika Lapila, Jessika Pääkkönen – Garmin-tiimi lippiksiä
 - Kasper Pääkkönen - team Garmin-lippis. Peruste: MTB-Lohjan parhaiden miehisten perinteiden mukaisesti hän omasta mielestään odotti neitoja ja valvoi toimintaa päältäpäin
 
-### HUS Lohja - LOL & PyöräHUSsit - GARMIN tiimipaitoja 2 kpl
+#### HUS Lohja - LOL & PyöräHUSsit - GARMIN tiimipaitoja 2 kpl
 
 - tarjosivat kaikille tapahtumaamme osallistuville jäsenkorjausta ja perän tuunausta sekä ongintaa poikkeaville
 - jury jäi kaipaamaan palvelutarjoomasta perälämmön mittausta ja välyksen säätöä
 - positiivinen, hyvä fiilis, erinomainen joukkuehenki
 - kaksi paitaa tuskin tulee olemaan mikään ongelma näin hyvähenkiselle porukalle
 
-### Perinteinen Ekku Peltomäki tribuutti – palkinto, jo toista vuotta
+#### Perinteinen Ekku Peltomäki tribuutti – palkinto, jo toista vuotta
 
 Snigel Speed / savun värjäys – S-kokoinen 24-paita
 
@@ -56,7 +56,7 @@ Snigel Speed / savun värjäys – S-kokoinen 24-paita
 - terveisiä vaan LS Vesamaan joukkuelle, joka lupauksensa mukaisesti yritti tuoda tullessaan Italo-discon
 - osoittanut todellista Ekku Peltomäki wannabee - henkeä
 
-### Biltema nousukahvat
+#### Biltema nousukahvat
 
 Kaupin Kanuunat - pahvilaatikkopyörä
 
@@ -65,7 +65,7 @@ Jakoperuste: oikean Kakkosneloshengen osoittaminen
 - kiitämme heidän avauskierroksen pyöriensä ennakkoluuloton teknistä innovatiivisyyttä, jossa on hyödynnetty nykyteknologian viimeisimpiä materiaaleja, kuten pakkauspahvia
 - kokonaiskonseptia ja erityisesti aerodynamiikkaa on kuulemamme mukaan haettu Turun Teknisen Yliopiston tuulitunnelissa Tampereella
 
-### Kiertopalkinto (iso pysti)
+#### Kiertopalkinto (iso pysti)
 
 Vapaahiihtoklubi, Lumi, 3v (oletettu isä arvioi 3-vuotiaaksi)
 
@@ -74,7 +74,7 @@ Vapaahiihtoklubi, Lumi, 3v (oletettu isä arvioi 3-vuotiaaksi)
 - osoittanut pitelemätöntä intoa, vahvaa läsnäoloa sekä sydämen synnynnäistä suuntaa metsää kohti
 - palkinnolla haluamme kannustaa Lumia maastopyöräilyn saralla ja samalla toivottaa muitakin nuoria innokkaita harrastajia joukkoomme
 
-### Pääpalkinto (Ratas)
+#### Pääpalkinto (Ratas)
 
 Raivoapinat, Helsinki
 

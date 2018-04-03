@@ -1,52 +1,118 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 nav#nav {
+  color: #000;
+  font-family: Arial Narrow, Arial;
+  font-stretch: condensed;
+  font-size: 11pt;
+  text-align: center;
+
+  a,
+  a:visited {
+    padding: 3px;
+    text-decoration: none;
     color: #000;
-    font-family: Arial Narrow, Arial;
-    font-stretch: condensed;
-	font-size: 11pt;
+  }
+
+  a:hover {
+    border: solid 1px #ccc;
+  }
+
+  a.nav-active {
+    font-weight: bold;
+    color: #000;
+    border: solid 1px #000;
+  }
+
+  /* Both menu and submenu shared: */
+  ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  li {
+    display: block;
     text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
 
-    a, a:visited {
-        padding: 3px;
-        text-decoration: none;
-        color: #000;
-    }              
+  /* Main menu specific styles */
+  ul.nav-main {
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 
-    a:hover {
-        border: solid 1px #ccc;
-    }    
-    
-    a.nav-active {
-        font-weight: bold;
-        color: #000;
-        border: solid 1px #000; 
-    }        
+  /* Sub-menu specific styles */
+  ul.nav-sub {
+    margin: 0 0 60px 0;
+    font-size: 16px;
+  }
 
-    /* Both menu and submenu shared: */
+  /* Hamburger menu implementation */
+  input,
+  label {
+    display: none;
+    width: 36px;
+    height: 36px;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 1.6rem;
+    border-radius: 2px;
+  }
+  label {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transition: .4s;
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  label:before {
+    font-family: FontAwesome;
+    font-size: 24px;
+    content: "\f0c9";
+    text-align: center;
+  }
+}
+
+/* Hamburger menu implementation */
+
+@media only screen and (max-width: 960px) {
+  nav#nav {
+    position: relative;
+
     ul {
-        width: 100%;
-        list-style: none;
-        padding: 0; 
-        display: flex;
+      flex-wrap: wrap; 
+      transform: translateY(0);
+      box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+      transition: all .5s;
+      position: absolute;
+      width: 100%;
     }
     li {
-        display: block;
-        text-align: center;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: auto;   
+      flex: none;
+      width: 100%;
+      border-bottom: solid 1px #777;
     }
-
-    /* Main menu specific styles */
-    ul.nav-main {
-        margin: 0 0 5px 0;
-        text-transform: uppercase;
-        font-weight: bold;
+    input[type="checkbox"]:checked+ul {
+      transform: translateY(-100%);
+      width: 100%;
+      background: #999;
+      transition: all .5s;
     }
-
-    /* Sub-menu specific styles */
-    ul.nav-sub {
-        margin: 0 0 60px 0;
-        font-size: 16px;
+    label {
+      display: block;
     }
+    input[type="checkbox"]:checked+ul li:nth-child(1) {
+      background: #777;
+      color: #fff;
+    }
+  }
 }

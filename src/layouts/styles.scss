@@ -1,0 +1,19 @@
+/* Mobile styles */
+
+.post-container header {
+  h2 {
+    margin-bottom: 0;
+  }
+  h2+p {
+    margin-top: 0;
+  }
+  .author {
+    text-align: center;
+  }  
+}
+
+
+/* Desktop styles */
+
+// @media (min-width: 650px) {
+// }

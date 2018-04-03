@@ -2,33 +2,29 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import headerImg from './header.jpg';
+import './header.scss';
 
 const Header = () => (
-  <div
-    style={{
-      margin: '1rem auto 1.45rem auto',
-      maxWidth: 960,
-      background: `no-repeat url(${headerImg})`,
-      backgroundSize: 'auto 100%'
-    }}
-  >
-    <div
+  <div id="header"
       style={{
-        padding: '1.45rem 1.0875rem'
+        width: '100%',
+        maxWidth: 960,
+        margin: '0.8rem auto 0.4rem auto',
       }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          MTB-Lohja toy
-        </Link>
-      </h1>
-    </div>
+    >  
+    <Link to="/" style={{ color: '#000', textDecoration: 'none' }}>
+      <div id="header-img"
+        style={{
+          width: '100%',
+          minHeight: '105px',
+          paddingBottom: '5%',
+          background: `no-repeat url(${headerImg})`,
+          backgroundSize: 'contain'
+        }}
+      >
+      </div>      
+      <h1 id="header-txt" style={{ margin: 0 }}>MTB-Lohja toy</h1>
+    </Link>  
   </div>
 )
 

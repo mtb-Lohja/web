@@ -4,7 +4,7 @@ date: "2006-06-04"
 title: "Kimmon nurkka"
 author: "Kimmo Liljander"
 ---
-## 7TH MTB-LOHJA 24 H HYVÄNTEKEVÄISYYSAJO ”KAKKOSNELONEN”
+### 7TH MTB-LOHJA 24 H HYVÄNTEKEVÄISYYSAJO ”KAKKOSNELONEN”
 
 Minulle on tullut perinteeksi kirjoittaa tämä Kakkosnelosen juttu veneväijyssä. Perinne on myöskin jokavuotinen ongelma, eli miten kirjoittaa tällainen juttu niin että saisi kaikki tämän jutun aloittaneet lukemaan sen loppuun. Viime vuodet olen muuten tällä samalla valituksella aloittanutkin tämän jutun. Siispä kokeilen, osaanko kirjoittaa niin lyhyesti mutta mitään tärkeää unohtamatta, että lukija jaksaa loppuun. Tällainen kiitos kirjoitus kun ei normaalisti ole niin kuin dekkari, jossa tapahtumat ja jännitys tiivistyvät loppua kohti, mutta tämäpä onkin. Lue loppuun niin näet!
 

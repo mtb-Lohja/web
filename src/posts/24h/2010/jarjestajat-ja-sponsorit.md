@@ -6,7 +6,7 @@ author: "Kimmo Liljander"
 ---
 2010 Kakkosnelosen teille järjestivät seuraavat henkilöt ja tahot.
 
-## Rataryhmä
+### Rataryhmä
 
 - Tero ” Zetor” Olkkonen
 - Ilkka ”Pommimies” Rislakki
@@ -20,7 +20,7 @@ author: "Kimmo Liljander"
 - Henkka Wennerstrand
 - Tuomas  ”TJ” Lehto
 
-## Kuskit
+### Kuskit
 
 - Eero ”Epa” Länsimäki
 - Jouni  ”Sunnimies”  Lehtonen
@@ -28,7 +28,7 @@ author: "Kimmo Liljander"
 - Tomppa Miettinen
 - Marko ”Mro” Heiskanen
 
-## Info
+### Info
 
 - Seija ” Äiti E” Länsimäki
 - Mikko ”Tyyny” Hynninen
@@ -39,14 +39,14 @@ author: "Kimmo Liljander"
 - Hanna Riitamo
 - Arto AM Mäkinen
 
-## Turvallisuus & majoitus
+### Turvallisuus & majoitus
 
 - Jari  ”JPS”  Syrenius
 - Timo “Palomies” Heinonen
 - Jouni ”Jonna” Salo
 - Risto ”Iso E” Länsimäki
 
-## Avustajat
+### Avustajat
 
 - Juuso Lehtonen
 - Markus Miettinen
@@ -57,30 +57,30 @@ author: "Kimmo Liljander"
 - Lauri ”Ibis” Vesamaa
 
 
-## Kuulutus
+### Kuulutus
 
 - Kari ”F” Mäkelä
 
-## Palkintojen jako
+### Palkintojen jako
 
 - Timo ”Kairos” Rautalahti
 
-## Lääkäri
+### Lääkäri
 
 - Jarmo Lehtonen
 
-## Ensiapu
+### Ensiapu
 
 - Tony Lindqvist
 - Lohjan Sairaalan hoitajia
 
-## Sekalaiset työt
+### Sekalaiset työt
 
 - Mika ”L-Setä” Latvala
 - Kimmo ”Korrekti” Koskinen
 - Kimmo Liljander
 
-## Sponsorit ja kumppanit
+### Sponsorit ja kumppanit
 
 - Poistieltä.com / Paavo Hyrkkö
 - Online Solutions

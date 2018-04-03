@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Link from 'gatsby-link';
 import './navigation.scss'
 
+// For CSS inspiration see https://codepen.io/torbencolding/pen/OPwwOg
+
 class Navigation extends Component {
   render() {
     const { location } = this.props;
@@ -39,10 +41,7 @@ class Navigation extends Component {
         sub: {
           "/oktoberfest/2006": { text: "2006" },
           "/oktoberfest/2007": { text: "2007" },
-          "/oktoberfest/2008": { text: "2008" },
           "/oktoberfest/2009": { text: "2009" },
-          "/oktoberfest/2010": { text: "2010" },
-          "/oktoberfest/2011": { text: "2011" },
           "/oktoberfest/2012": { text: "2012" },
           "/oktoberfest/2013": { text: "2013" },
         }
@@ -87,6 +86,7 @@ class Navigation extends Component {
 
     return (
       <nav id="nav">
+        <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu" /> 
         <ul className="nav-main">
           {
             Object.keys(nav).map(p => 
@@ -102,6 +102,7 @@ class Navigation extends Component {
             ) 
           } 
           </ul> : false } 
+        <label htmlFor="css-toggle-menu" id="css-toggle-menu"></label>
       </nav>
     );
   }

@@ -1,16 +1,15 @@
 ---
 path: "/24h/2007-kakkosnelosen-palkitut"
 date: "2007-11-01"
-title: "Kakkosnelosen palkitut"
+title: "Vuoden 2007 Kakkosnelosen palkitut"
 author: "MTB-Lohja toy"
 ---
-### Vuoden 2007 Kakkosnelosessa palkitut tässä.
-
 Ehdokkaat – ei palkittu:
-Elvis
-Sukeltajanpukuinen kaveri
-Karhun pää - joukkue
-Pikkupoika, ajoi sitkeästi illalla valon kanssa
+
+- Elvis
+- Sukeltajanpukuinen kaveri
+- Karhun pää - joukkue
+- Pikkupoika, ajoi sitkeästi illalla valon kanssa
 
 ### Virtuaalipalkinto – todellinen ja aito kiri - Jänis ensimmäisen kilometrin aikana
 

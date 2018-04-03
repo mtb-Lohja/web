@@ -12,7 +12,7 @@ Selvityksen mukaan huonoimmin kypärä painuu päähän 13-17-vuotiailla nuorill
 
 Laki kypärän käytöstä toteaa, että polkupyöräilijän ja polkupyörän matkustajan on ajon aikana yleensä käytettävä asianmukaista suojakypärää. Sanktiota kypärän käyttämättä jättämisestä ei laki kuitenkaan määrää.
 
-## Käytä kypärää oikein
+### Käytä kypärää oikein
 
 Turvallisuusinsinööri Ari-Pekka Elovaara Liikenneturvasta huomauttaa, että kypärän käytössä on tärkeää noudattaa käyttö- ja kiinnitysohjeita.
 
@@ -20,7 +20,7 @@ Ensinnäkin kypärä suojaa parhaiten, kun se on sopiva. Kannattaa valita koko j
 
 Kypärä säädetään sovituspannan tai -palojen avulla käyttäjälle sopivaksi. Hihnat ohjataan kulkemaan korvien molemmin puolin. Leukahihna ja lukko säädetään lopuksi niin, että kiinnitys tuntuu mukavalta ja tukevalta. Tällöin leukahihnan ja leuan väliin mahtuu vain yhdestä kahteen sormea.
 
-## Ennakoivaa ajoa kypäränkin kanssa
+### Ennakoivaa ajoa kypäränkin kanssa
 
 > Ennakoivaa ajoa tarvitaan pyöräilyssäkin! Kypärä ei suojaa hyvin kasvojen alaosaa. Suojaus ei muutoinkaan aina riitä, etenkään kaikkein kovimmissa törmäyksissä auton kanssa, Elovaara korostaa.
 

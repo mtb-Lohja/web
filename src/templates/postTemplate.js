@@ -10,8 +10,8 @@ export default function Template({ data }) {
       <Helmet title={`MTB-Lohja toy - ${frontmatter.title}`} />  
       <article className="post">
         <header>
-          <h1>{frontmatter.title}</h1>
-          <p><i>{frontmatter.author}, {frontmatter.date}</i></p>
+          <h2>{frontmatter.title}</h2>
+          <p className="quiet author"><i>{frontmatter.author}, {frontmatter.date}</i></p>
         </header>
         <div
           className="post-content"

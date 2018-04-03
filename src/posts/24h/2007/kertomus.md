@@ -2,7 +2,7 @@
 path: "/24h/2007-kakkosnelonen-ja-ymparipyoraily"
 date: "2007-06-08"
 title: "Kakkosnelonen + ympäripyöräily"
-author: "MTB-Lohja toy"
+author: "Kimmo Liljander"
 ---
 **Veneväijyssä!** Asiasta tietämättömille ja uusille tuttavuuksille täytyy selvittää, että minulla on ollut tapana viime vuosina kirjoittaa Kakkosnelosen raportti veneväijyssä. Tämä raportti on vuosi vuodelta huonommin kirjoitettu ja tylsempi lukea, mutta se ei ole jutussa mainittujen henkilöiden, joukkueiden tai auttajien vika. Kyllä se menee minun piikkiin!
 

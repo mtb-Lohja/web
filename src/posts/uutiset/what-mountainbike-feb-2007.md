@@ -6,7 +6,7 @@ author: "MTB-Lohja toy"
 ---
 Englantilainen maastopyöräilylehti, ehkä paras yleismaastopyöräilylehti maailmaassa. Uusimassa numerossa muun muassa:
 
-## Testissä: Tuhannen punnan jäykkäperäiset maastopyörät
+### Testissä: Tuhannen punnan jäykkäperäiset maastopyörät
 
 - Commencal Supernormal (£1000), 7 pistettä. Kevyt ja herkästi reagoiva, mutta v-jarrut pilasi paketin.
 - Trek 8000 Disk (£1099), 9 p. Vakaa jokapaikan höylä.
@@ -15,7 +15,7 @@ Englantilainen maastopyöräilylehti, ehkä paras yleismaastopyöräilylehti maa
 - Marin Rocky Ridge (£995), 9 p. Täydellinen paketti teknisille reiteille.
 - Rock Lobster Team TIG SL (£999), 9p. Testivoittaja. Innostava runko ja loistava osasarja.
 
-## Testissä: Ajovalot maastokäyttöön
+### Testissä: Ajovalot maastokäyttöön
 
 - Raleigh Powerbeam IW Led (£17), 8 pistettä. Hyvin hinnoiteltu "tuo sinut kotiin" -valo.
 - Smart Light 10W (£70), 6 p. Ok valo, mutta akku on tiiliskivi.
@@ -30,7 +30,7 @@ Englantilainen maastopyöräilylehti, ehkä paras yleismaastopyöräilylehti maa
 - USE Exposure Enduro Turbo (£325), 7 p. Tehokas, mutta ongelmia luotettavuuden kanssa.
 - Lupine Wilma 4 (£400), 9 p. LED valojen huipentuma, huonoa ainoastaan hinta.
 
-## Muuta
+### Muuta
 
 - Kuinka varustautua talven kylmiä kelejä vastaan. Kuusi sivua vaatteita, varusteita ja vinkkejä. Maalaisjärjelläkin olisi pärjännyt ja jokaisesta lätäköstä ei kannata ajaa.
 - The Right Stuff... Mainio palsta, jolla esitellään tavallisten ajajien varusteita ja reppujen sisältöjä.

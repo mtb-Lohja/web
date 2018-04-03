@@ -6,6 +6,8 @@ import Header from '../components/Header'
 import Navigation from '../components/Navigation'
 
 import './normalize.css'
+import './typography.css'
+import './styles.scss'
 
 const TemplateWrapper = ({ children, location }) => (
   <div>
@@ -21,8 +23,6 @@ const TemplateWrapper = ({ children, location }) => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0
       }}
     >
       <Navigation location={location} />

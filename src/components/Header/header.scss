@@ -1,0 +1,19 @@
+#header {
+  #header-img {
+    display: none;
+  }
+  #header-txt {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+    #header {
+        #header-img {
+          display: block;
+        }
+        #header-txt {
+          display: none;
+        }
+      }
+}

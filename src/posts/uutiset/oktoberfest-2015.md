@@ -10,7 +10,7 @@ Lähtöpaikkana on Lohjan Liikuntakeskuksen Jäähalli. Tapahtumamme on maksuton
 
 Viime vuonna kuskeja saapui paikalle noin 100 ja odotamme määrän tänä vuonna hieman kasvavan. Päivän reittikattaukseen olemme valinneet Lohjan upeita harjumaisemia, kallioita sekä rantaraitteja. Mukana on uusiakin polkuja. Ajoseura on takuuvarman samanhenkistä ja vääräleukaista.
 
-## Reitit ja ryhmät
+### Reitit ja ryhmät
 
 Oktoberfest 2015 on matalan kynnyksen maastopyöräilytapahtuma. Tänä vuonna painotamme kauden lopetukseen liittyvästi retkihenkisyyttä ja hauskanpitoa. Ryppotsainen kihnuttaminen painovoimaa ja pitoa uhkaavilla reiteillä ei ole tämän vuoden juttu. 
 
@@ -48,23 +48,23 @@ Kaikissa ryhmissä on siis vetäjän lisäksi perämies. Teoreettinen mahdollisu
 
 Jokaisessa ryhmässä on kokeneen vetäjän lisäksi vähintään yhtä kokenut ”peräsmies”, jotka huolehtivat ryhmän kasassa pysymisestä. Parivaljakon vastuulla on ryhmän elämyksellisyys. Kaikilla vetäjillä on mukanaan turvaohje, josta löytyvät koordinaatit lähimmälle pelastuspaikalle, mikäli jotain sattuisi ja pelastuslaitosta tarvittaisiin apuun.
 
-## Ravinto
+### Ravinto
 
 Oktoberfest ei ole kilpailu, vaan samanhenkisten ihmisten leppoisa retkiajo. Siitäkin syystä tapahtumaan kuuluu makkaranpaistotauko noin kahden tunnin ajon jälkeen. Taukopaikkana toimii G-piste eli Gunnarlan hiihtomaja. MTB-Lohja tarjoaa nuotion sekä vettä juomareppujen tai -pullojen täydennystä varten. Taukopaikalla on naurutakuu, koska siellä kerrotaan kootut selitykset kaikille ajon aikaisille kömmähdyksille. Nuotiovahtina toimii Pekka L(apaluu).
 
 Koska kyseessä on kuitenkin liikunnallinen aktiviteetti, ajotapahtuman jälkeen on luvassa janonsammutusta paikallisessa ravitsemusliikkeessä. Tästä voit tiedustella ryhmän vetäjältä.
 
-## Turvallisuus
+### Turvallisuus
 
 Jokainen osallistuu tapahtumaan omalla vastuullaan ja huolehtii omista vakuutuksistaan. Vetäjät, eikä toisaalta MTB-Lohja, ole vastuussa kuljettajista eli huomioittehan tämän ajoon osallistuessanne. Alle 18-vuotiaat vain vanhempien seurassa. Tapahtumassa on myös ”raatoauto”, jolla voimme kuljettaa ongelmatilanteissa kuljetuksen esimerkiksi lähtöpaikalle.
 
-## Saapuminen
+### Saapuminen
 
 Lähtöpaikka on Lohjan Liikuntakeskuksen Jäähalli, Runokatu 1. Saavuthan paikalle hyvissä ajoin, mieluiten niin, että kuljettaja ja varusteet ovat lähtövalmiina viimeistään klo 11.45. Lähtö on siis klo 12.00. Autosi voit pysäköidä maksutta Jäähallin parkkipaikalle sekä vieressä olevalle hiekkakentälle, josta lähtö myös tapahtuu. Paikalla on opastusta.
 
 Toimimme yhteistyössä Lohjan Liikuntakeskuksen kanssa. Mikäli haluat uida ja saunoa ajon jälkeen, niin saat järjestäjiltä ilmaislipun, jolla voit lunastaa avaimen [uimahallin](http://www.neidonkeidas.fi/) lukollisen kaappiin tapahtuman ajaksi. Myös pyörät pääsevät pesulle eli jäähallin päädyssä on pesupiste mutaisille kulkuvälineille.
 
-## Loppusanat
+### Loppusanat
 
 Toivottavasti saamme tänäkin vuonna 100 kuljettajan rajan rikki. Rasvaa ketjut ja tule lauantaina 10.10. viimeistään klo 1145 Lohjan jäähallille. Yhdessä teemme tästä kaikkien aikojen parhaan Oktoberfestin! 
 

@@ -8,7 +8,7 @@ MTB-Lohja julistaa kesän virallisen ajokauden päättyneeksi Oktoberfestin myö
 
 Fillarit eivät toki Lohjalla pysähdy siltikään. Yhteislenkkejä jatketaan läpi pimeän talvenkin, mutta säännöllinen yhteislenkkitoiminta on perinteisesti päättynyt Oktoberfestiin. Lokakuun aikana myös lenkkien ajankohdat muuttuvat pimeyden takia. Foorumiltamme löydät viimeisimmät tiedot lenkkien ajankohdasta.
 
-## 2009 ajokausi
+### 2009 ajokausi
 
 Vuosi 2009 on ollut MTB-Lohjalle monella tavalla merkittävä. Olemme saaneet kansallistakin julkisuutta sekä erilaisia tunnustuksia viimeisten vuosien aikana. Vuoden 2009 huipensi osaltamme kymmenes Kakkosnelonen, jonka myötä lahjoituspottimme on nyt kasvanut noin 140 000 euroon. Toivomastamme "vanhasta miljoonasta" (noin 168 000 euroa) on siis jääty edelleen ja siksi ehkä tulemme ensi keväänäkin järjestämään moisen tapahtuman. Päivämäärä Kakkosneloselle on jo tiedossa mutta itse tapahtumasta on tarkoitus keskustella sisäisesti vielä kuluvan alkusyksyn aikana. 22.-23.5.2010 kannattaa silti merkitä kalenteriin jos vaikka jotain tuolloin tapahtuisi!
 
@@ -18,7 +18,7 @@ Henkilökohtaisesti tuntuu siltä, että ajaminen on vuosi vuodelta vaikeampaa. 
 
 Loukkaantumisilta ei ole tänäkään vuonna vältytty. Vaikka maastopyöräily ei lajina ole sieltä vaarallisimmasta päästä, on loukkaantumisen mahdollisuus aina olemassa kun metsässä ja märillä kallioilla huimistellaan pyörällä. Silti mitään isoa ei ole sattunut ja MTB-Lohjalaiset ovat säästyneet normaaleilla rattaankuvilla pohkeissa ja muulla vastaavalla pienellä raapaleella. Moraalisena johtajanakin tunnettu Kimmo Liljander on tosin ollut jo hetken aikaa pyöräilykiellossa kipeän kätensä takia. Sääli sinänsä, Kimmo on ollut yksi niitä voimia, jotka meikäläistäkin ovat jaksaneet vetää yhteislenkeille edes silloin tällöin. Pikaisia paranemisia!
 
-## "Kimmon nurkka"
+### "Kimmon nurkka"
 
 Kakkosnelonen tuli sivuttua, Oktoberista hieman avauduttua ja yhteislenkitkin mainittua. On oikeastaan enää kiitosten aika. Koska tänä vuonna "Kimmon nurkka" (löytyy Kakkosnelosen alta joka vuodelta) on näköjään jäänyt kirjoittamatta, hoidetaan sekin pikaisesti tässä aiheessa.
 
