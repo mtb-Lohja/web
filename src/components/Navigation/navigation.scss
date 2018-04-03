@@ -67,7 +67,7 @@ nav#nav {
   }
   label {
     position: absolute;
-    top: 8px;
+    top: -45px;
     right: 8px;
     transition: .4s;
   }
@@ -90,7 +90,7 @@ nav#nav {
 
     ul {
       flex-wrap: wrap; 
-      transform: translateY(0);
+      transform: translateY(-300px);
       box-shadow: 0 0 5px rgba(0, 0, 0, .7);
       transition: all .5s;
       position: absolute;
@@ -99,11 +99,11 @@ nav#nav {
     li {
       flex: none;
       width: 100%;
+      font-size: 130%;
       border-bottom: solid 1px #777;
     }
     input[type="checkbox"]:checked+ul {
-      transform: translateY(-100%);
-      width: 100%;
+      transform: translateY(-55px);
       background: #999;
       transition: all .5s;
     }
@@ -114,5 +114,11 @@ nav#nav {
       background: #777;
       color: #fff;
     }
+  }
+}
+
+@media print {
+  nav#nav {
+    display: none;
   }
 }

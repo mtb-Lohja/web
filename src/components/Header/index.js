@@ -4,12 +4,10 @@ import Link from 'gatsby-link'
 import headerImg from './header.jpg';
 import './header.scss';
 
-const Header = () => (
+const Header = ({children}) => (
   <div id="header"
       style={{
-        width: '100%',
-        maxWidth: 960,
-        margin: '0.8rem auto 0.4rem auto',
+        margin: '0.8rem auto 0 auto',
       }}
     >  
     <Link to="/" style={{ color: '#000', textDecoration: 'none' }}>
@@ -25,6 +23,7 @@ const Header = () => (
       </div>      
       <h1 id="header-txt" style={{ margin: 0 }}>MTB-Lohja toy</h1>
     </Link>  
+    {children}
   </div>
 )
 

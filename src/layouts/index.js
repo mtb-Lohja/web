@@ -10,7 +10,7 @@ import './typography.css'
 import './styles.scss'
 
 const TemplateWrapper = ({ children, location }) => (
-  <div>
+  <div style={{ margin: '0 auto', maxWidth: 960 }} >
     <Helmet
       title="MTB-Lohja toy"
       meta={[
@@ -18,16 +18,11 @@ const TemplateWrapper = ({ children, location }) => (
         { name: 'keywords', content: 'mtb, maastopyöräily' },
       ]}
     />  
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-      }}
-    >
+    <Header>
       <Navigation location={location} />
-      {children()}
-    </div>
+    </Header>
+    
+    {children()}
   </div>
 )
 
