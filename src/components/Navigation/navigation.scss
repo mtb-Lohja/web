@@ -19,7 +19,6 @@ nav#nav {
   }
 
   a.nav-active {
-    font-weight: bold;
     color: #000;
     border: solid 1px #000;
   }
@@ -30,13 +29,14 @@ nav#nav {
     list-style: none;
     padding: 0;
     display: flex;
-  }
-  li {
-    display: block;
-    text-align: center;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
+
+    li {
+      display: block;
+      text-align: center;
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: auto;
+    }  
   }
 
   /* Main menu specific styles */
@@ -88,31 +88,46 @@ nav#nav {
   nav#nav {
     position: relative;
 
-    ul {
-      flex-wrap: wrap; 
-      transform: translateY(-300px);
-      box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+    a.nav-active {
+      border: none;
+      color: #c00;
+    }
+
+    div {
+      transform: translateY(-600px);
       transition: all .5s;
       position: absolute;
       width: 100%;
+      background: #fff;
+
+      ul {
+        flex-wrap: wrap;
+        background: #999;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .7);
+        font-size: 140%;
+
+        li {
+          flex: none;
+          width: 100%;
+          border-bottom: solid 1px #777;
+        }
+      }
+
+      ul.nav-sub {
+        background: #ccc;
+        font-size: 120%;
+        margin: 0;
+      }
     }
-    li {
-      flex: none;
-      width: 100%;
-      font-size: 130%;
-      border-bottom: solid 1px #777;
-    }
-    input[type="checkbox"]:checked+ul {
+    input[type="checkbox"]:checked+div {
       transform: translateY(-55px);
-      background: #999;
       transition: all .5s;
+
+      ul {
+      }
     }
     label {
       display: block;
-    }
-    input[type="checkbox"]:checked+ul li:nth-child(1) {
-      background: #777;
-      color: #fff;
     }
   }
 }

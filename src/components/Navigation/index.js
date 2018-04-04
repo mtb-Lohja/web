@@ -87,21 +87,23 @@ class Navigation extends Component {
     return (
       <nav id="nav">
         <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu" /> 
-        <ul className="nav-main">
-          {
-            Object.keys(nav).map(p => 
-              <ListLink key={p} to={p} exact={nav[p].exact} text={nav[p].text} className={nav[p].active ? "nav-active" : ""} />
-            )
-          }
-        </ul>
-        { subNav ? 
-          <ul className="nav-sub">
-          {
-            Object.keys(subNav).map(p => 
-              <ListLink key={p} to={p} exact={subNav[p].exact} text={subNav[p].text} className={subNav[p].active ? "nav-active" : ""} />
-            ) 
-          } 
+        <div>
+          <ul className="nav-main">
+            {
+              Object.keys(nav).map(p => 
+                <ListLink key={p} to={p} exact={nav[p].exact} text={nav[p].text} className={nav[p].active ? "nav-active" : ""} />
+              )
+            }
+          </ul>
+          { subNav ? 
+            <ul className="nav-sub">
+            {
+              Object.keys(subNav).map(p => 
+                <ListLink key={p} to={p} exact={subNav[p].exact} text={subNav[p].text} className={subNav[p].active ? "nav-active" : ""} />
+              ) 
+            } 
           </ul> : false } 
+        </div>
         <label htmlFor="css-toggle-menu" id="css-toggle-menu"></label>
       </nav>
     );
