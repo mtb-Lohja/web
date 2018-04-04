@@ -1,5 +1,5 @@
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
-
+/*@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+*/
 nav#nav {
   color: #000;
   font-family: Arial Narrow, Arial;
@@ -83,7 +83,7 @@ nav#nav {
 }
 
 /* Hamburger menu implementation */
-
+/* For CSS inspiration see https://codepen.io/torbencolding/pen/OPwwOg */
 @media only screen and (max-width: 960px) {
   nav#nav {
     position: relative;
@@ -122,9 +122,6 @@ nav#nav {
     input[type="checkbox"]:checked+div {
       transform: translateY(-55px);
       transition: all .5s;
-
-      ul {
-      }
     }
     label {
       display: block;

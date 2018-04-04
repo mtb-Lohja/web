@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Link from 'gatsby-link';
-import './navigation.scss'
-
-// For CSS inspiration see https://codepen.io/torbencolding/pen/OPwwOg
+import 'font-awesome/scss/font-awesome.scss';
+import './navigation.scss';
 
 class Navigation extends Component {
   render() {
