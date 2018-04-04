@@ -99,8 +99,22 @@ body {
   .quiet {color:#999;}
   .pull-left {float:left; margin:0.5em 2em 1em 0;}
   .pull-right {float:right; margin:0.5em 0 1em 2em;}
+
+  img {
+    max-width: 633px;
+  }
   
+  figure img {
+    max-width: 550px;
+  }
+
   @media (max-width:500px) {
-    body {font-size:100%;}
-    img {max-width:100% !important; height:auto !important; float:none !important;}
+    body {
+      font-size:100%;
+    }
+    img {
+      max-width:100% !important; 
+      height:auto !important; 
+      float:none !important;
+    }
   }
