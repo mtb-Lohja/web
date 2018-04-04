@@ -7,7 +7,7 @@ const ForumRedirectPage = () => {
     <div>
       <Helmet
         meta={[
-          { 'http-equiv': 'refresh', content: '2; URL=http://forum.mtb-lohja.com' }
+          { 'http-equiv': 'refresh', content: '2; URL=http://foorumi.mtb-lohja.com' }
         ]}
       />  
 
