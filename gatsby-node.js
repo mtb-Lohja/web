@@ -4,13 +4,13 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const path = require('path')
+const path = require("path");
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
-  const blogPostTemplate = path.resolve(`src/templates/postTemplate.js`)
-  const frontPageTemplate = path.resolve(`src/templates/frontPageTemplate.js`)
+  const blogPostTemplate = path.resolve(`src/templates/postTemplate.js`);
+  const frontPageTemplate = path.resolve(`src/templates/frontPageTemplate.js`);
 
   // Create all markdown-based pages
   return graphql(`
@@ -30,28 +30,44 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
-      return Promise.reject(result.errors)
+      return Promise.reject(result.errors);
     }
 
     if (!result.data) {
-      return
+      return;
     }
 
     // Map the first post as front page
     createPage({
-      path: '/',
+      path: "/",
       component: frontPageTemplate,
       context: {
-        post: result.data.allMarkdownRemark.edges[0].node.frontmatter.path,
-      },
-    })
+        post: result.data.allMarkdownRemark.edges[0].node.frontmatter.path
+      }
+    });
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,
-        context: {}, // additional data can be passed via context
-      })
-    })
-  })
-}
+        context: {} // additional data can be passed via context
+      });
+    });
+  });
+};
+
+// Disable leaflet server rendering as it tries to use window
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /leaflet/,
+            use: loaders.null()
+          }
+        ]
+      }
+    });
+  }
+};
