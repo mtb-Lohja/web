@@ -1,5 +1,6 @@
-import React from "react";
-import Link from "gatsby-link";
+import React from 'react'
+import { Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 export const PostLink = ({ post }) => (
   <div>
@@ -8,24 +9,22 @@ export const PostLink = ({ post }) => (
         {post.frontmatter.title} ({post.frontmatter.date})
       </h4>
     </Link>
-    <p>
-      {post.excerpt}
-    </p>
+    <p>{post.excerpt}</p>
   </div>
-);
+)
 
-const PostLinks = ({edges, filter}) =>
+const PostLinks = ({ edges, filter }) => (
   <div>
     {edges
-      .filter(edge => !!edge.node.frontmatter.date) 
+      .filter(edge => !!edge.node.frontmatter.date)
       .filter(edge => edge.node.frontmatter.path.startsWith(filter))
-      .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-    }
+      .map(edge => <PostLink key={edge.node.id} post={edge.node} />)}
   </div>
+)
 
-export default PostLinks;
+export default PostLinks
 
-export const postLinksQuery = graphql `
+export const postLinksQuery = graphql`
   fragment posts on MarkdownRemarkConnection {
     edges {
       node {
@@ -39,4 +38,4 @@ export const postLinksQuery = graphql `
       }
     }
   }
-`;
+`
