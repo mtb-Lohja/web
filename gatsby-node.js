@@ -55,19 +55,3 @@ exports.createPages = ({ actions, graphql }) => {
     });
   });
 };
-
-// Disable leaflet server rendering as it tries to use window
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  if (stage === "build-html") {
-    actions.setWebpackConfig({
-      module: {
-        rules: [
-          {
-            test: /leaflet/,
-            use: loaders.null()
-          }
-        ]
-      }
-    });
-  }
-};
