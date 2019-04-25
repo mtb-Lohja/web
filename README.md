@@ -20,3 +20,6 @@ npm run develop
 Run `gatsby build` and deploy the output folder `/public` to any
 static hosting. Firebase hosting has been set up, just run 
 `firebase deploy` on root after build. 
+
+In problem situations clean up target folders first
+with `rm -rf public .cache`
