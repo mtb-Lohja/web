@@ -6,14 +6,14 @@
 
 const path = require("path");
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions;
 
   const blogPostTemplate = path.resolve(`src/templates/postTemplate.js`);
   const frontPageTemplate = path.resolve(`src/templates/frontPageTemplate.js`);
 
   // Create all markdown-based pages
-  return graphql(`
+  const result = await graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
@@ -28,30 +28,27 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
-    }
+  `);
 
-    if (!result.data) {
-      return;
-    }
+  if (result.errors) {
+    console.error(result.errors);
+    return;
+  }
 
-    // Map the first post as front page
+  // Map the first post as front page
+  createPage({
+    path: "/",
+    component: frontPageTemplate,
+    context: {
+      post: result.data.allMarkdownRemark.edges[0].node.frontmatter.path
+    }
+  });
+
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
-      path: "/",
-      component: frontPageTemplate,
-      context: {
-        post: result.data.allMarkdownRemark.edges[0].node.frontmatter.path
-      }
-    });
-
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-        context: {} // additional data can be passed via context
-      });
+      path: node.frontmatter.path,
+      component: blogPostTemplate,
+      context: {} // additional data can be passed via context
     });
   });
 };

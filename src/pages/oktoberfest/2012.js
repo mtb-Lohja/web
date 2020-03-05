@@ -1,24 +1,11 @@
-import React from 'react'
-import PostLinks from '../../components/post-links'
-import Layout from '../../components/Layout'
-import { graphql } from 'gatsby'
+import React from "react";
+import PostLinks from "../../components/post-links";
 
-const Oktoberfest2012Page = ({
-  location,
-  data: { allMarkdownRemark: { edges } },
-}) => (
-  <Layout location={location}>
+const Oktoberfest2012Page = () => (
+  <>
     <h2>Oktoberfest 2012</h2>
-    <PostLinks edges={edges} filter="/oktoberfest/2012" />
-  </Layout>
-)
+    <PostLinks filter="/oktoberfest/2012" />
+  </>
+);
 
-export default Oktoberfest2012Page
-
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      ...posts
-    }
-  }
-`
+export default Oktoberfest2012Page;

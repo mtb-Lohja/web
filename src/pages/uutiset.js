@@ -1,21 +1,11 @@
-import React from 'react'
-import PostLinks from '../components/post-links'
-import Layout from '../components/Layout'
-import { graphql } from 'gatsby'
+import React from "react";
+import PostLinks from "../components/post-links";
 
-const PostsPage = ({ location, data: { allMarkdownRemark: { edges } } }) => (
-  <Layout location={location}>
+const PostsPage = () => (
+  <>
     <h2>Kaikki kirjoitukset</h2>
-    <PostLinks edges={edges} filter="/uutiset" />
-  </Layout>
-)
+    <PostLinks filter="/uutiset" />
+  </>
+);
 
-export default PostsPage
-
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      ...posts
-    }
-  }
-`
+export default PostsPage;

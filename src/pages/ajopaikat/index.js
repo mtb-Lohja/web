@@ -1,11 +1,10 @@
 import React from "react";
-import Layout from "../../components/Layout";
 import { Map, GeoJSON, TileLayer } from "react-leaflet";
 
 // This is the data we show on map
 import geodata from "../../data/ajopaikat.json";
 
-const AjopaikatPage = ({ location }) => {
+const AjopaikatPage = () => {
   const center = [60.22987064, 24.07661212];
 
   let onEachFeature = (feature, layer) => {
@@ -14,9 +13,7 @@ const AjopaikatPage = ({ location }) => {
     }
 
     layer.bindPopup(
-      `<h4>${feature.properties.title}</h4><p>${
-        feature.properties.description
-      }</p>`
+      `<h4>${feature.properties.title}</h4><p>${feature.properties.description}</p>`
     );
   };
   const mapStyle = {
@@ -31,7 +28,7 @@ const AjopaikatPage = ({ location }) => {
   }
 
   return (
-    <Layout location={location}>
+    <>
       <h2>MTB-Lohja toy ajopaikat</h2>
       <p>
         Noin vuonna 2012 alettiin kerätä ajopaikkojen nimiä yhdelle kartalle.
@@ -45,7 +42,7 @@ const AjopaikatPage = ({ location }) => {
         />
         <GeoJSON data={geodata} onEachFeature={onEachFeature} />
       </Map>
-    </Layout>
+    </>
   );
 };
 

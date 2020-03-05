@@ -1,24 +1,11 @@
-import React from 'react'
-import PostLinks from '../../components/post-links'
-import Layout from '../../components/Layout'
-import { graphql } from 'gatsby'
+import React from "react";
+import PostLinks from "../../components/post-links";
 
-const Viikkolenkit2007Page = ({
-  location,
-  data: { allMarkdownRemark: { edges } },
-}) => (
-  <Layout location={location}>
+const Viikkolenkit2007Page = () => (
+  <>
     <h2>Viikkoajoraportit 2007</h2>
-    <PostLinks edges={edges} filter="/viikkoajot/2007" />
-  </Layout>
-)
+    <PostLinks filter="/viikkoajot/2007" />
+  </>
+);
 
-export default Viikkolenkit2007Page
-
-export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      ...posts
-    }
-  }
-`
+export default Viikkolenkit2007Page;

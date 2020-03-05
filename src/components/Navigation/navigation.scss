@@ -94,33 +94,32 @@ nav#nav {
     }
 
     div {
-      transform: translateY(-600px);
       transition: all .5s;
-      position: absolute;
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100%;
       background: #fff;
 
       ul {
         flex-wrap: wrap;
-        background: #999;
         box-shadow: 0 0 5px rgba(0, 0, 0, .7);
         font-size: 140%;
 
         li {
           flex: none;
           width: 100%;
-          border-bottom: solid 1px #777;
+          border-bottom: solid 1px rgb(192, 190, 190);
         }
       }
 
       ul.nav-sub {
-        background: #ccc;
         font-size: 120%;
         margin: 0;
       }
     }
     input[type="checkbox"]:checked+div {
-      transform: translateY(-55px);
+      transform: translateY(-600px);
       transition: all .5s;
     }
     label {
