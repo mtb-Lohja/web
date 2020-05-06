@@ -1,23 +1,12 @@
 {
-  "parser": "babylon",
+  "endOfLine": "lf",
   "useTabs": false,
-  "singleQuote": false,
   "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "arrowParens": "avoid",
-  "overrides": [
-    {
-      "files": "*.css",
-      "options": {
-        "parser": "css"
-      }
-    },
-    {
-      "files": ".prettierrc",
-      "options": {
-        "parser": "json"
-      }
-    }
-  ]
+  "proseWrap": "always"
 }
