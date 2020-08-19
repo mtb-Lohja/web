@@ -23,7 +23,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "",
+  "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
