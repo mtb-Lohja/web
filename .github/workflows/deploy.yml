@@ -6,7 +6,7 @@ name: Deploy each push
 
 on:
   push:
-    branches: [master, v2]
+    branches: [master]
 
 jobs:
   build:

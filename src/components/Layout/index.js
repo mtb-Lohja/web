@@ -1,5 +1,5 @@
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 
 import Header from "../Header";
 import Navigation from "../Navigation";
@@ -15,9 +15,9 @@ const Layout = ({ children }) => (
       meta={[
         {
           name: "description",
-          content: "MTB-Lohja toy - maastopyöräilyä Lohjalla"
+          content: "MTB-Lohja toy - maastopyöräilyä Lohjalla",
         },
-        { name: "keywords", content: "mtb, maastopyöräily" }
+        { name: "keywords", content: "mtb, maastopyöräily" },
       ]}
     />
     <Header>

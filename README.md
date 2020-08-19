@@ -19,8 +19,11 @@ npm run develop
 
 ## Deploy
 
-Run `gatsby build` and deploy the output folder `/public` to any static hosting.
-Firebase hosting has been set up, just run `firebase deploy` on root after
-build.
+CI build and deployment has been set up for this site. So just push to master
+branch to deploy.
+
+To test locally or hackily deploy from local run `gatsby build` and deploy the
+output folder `/public` to any static hosting. Firebase hosting has been set up,
+just run `firebase deploy` on root after build.
 
 In problem situations clean up target folders first with `rm -rf public .cache`
