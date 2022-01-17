@@ -7,3 +7,12 @@ yarn-error.log
 
 # Build directory
 /public
+
+# Yarn zero installs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
