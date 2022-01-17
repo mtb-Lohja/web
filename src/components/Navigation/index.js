@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { useLocation } from "@reach/router";
-import "font-awesome/scss/font-awesome.scss";
+import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 import "./navigation.scss";
 
 const Navigation = () => {
@@ -19,10 +19,10 @@ const Navigation = () => {
   const nav = {
     "/": {
       exact: true,
-      text: "Etusivu"
+      text: "Etusivu",
     },
     "/uutiset": {
-      text: "Uutiset"
+      text: "Uutiset",
     },
     "/24h": {
       text: "MTB-Lohja 24h",
@@ -33,8 +33,8 @@ const Navigation = () => {
         "/24h/2008": { text: "2008" },
         "/24h/2009": { text: "2009" },
         "/24h/2010": { text: "2010" },
-        "/24h/2011": { text: "2011" }
-      }
+        "/24h/2011": { text: "2011" },
+      },
     },
     "/oktoberfest": {
       text: "Oktoberfest",
@@ -43,18 +43,18 @@ const Navigation = () => {
         "/oktoberfest/2007": { text: "2007" },
         "/oktoberfest/2009": { text: "2009" },
         "/oktoberfest/2012": { text: "2012" },
-        "/oktoberfest/2013": { text: "2013" }
-      }
+        "/oktoberfest/2013": { text: "2013" },
+      },
     },
     "/viikkoajot": {
-      text: "Viikkoajot"
+      text: "Viikkoajot",
     },
     "/foorumi": {
-      text: "foorumi"
+      text: "foorumi",
     },
     "/tietoa": {
-      text: "Mikä?"
-    }
+      text: "Mikä?",
+    },
   };
 
   let subNav = null;
