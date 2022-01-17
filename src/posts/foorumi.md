@@ -1,9 +1,8 @@
 ---
 path: "/foorumi"
-date: "2006-06-09"
+date: "2022-01-17"
 title: "Foorumi"
 author: "MTB-Lohja toy"
 ---
-MTB-Lohjalla on historiaa täynnä oleva foorumi, jossa on sekä suljettu jäsenten osio, että julkinen osio.
-
-[Siirry Foorumille tästä.](http://foorumi.mtb-lohja.com)
+MTB-Lohjalla oli pitkään auki foorumi, jossa oli sekä julkinen osio, että suljettu, jäsenten osio. 
+Foorumi jäi kehityksen jalkoihin, mutta sen avoin osio [on arkistoitu tänne](/foorumiarkisto/cgi-bin/yabb2/YaBB.pl.html).  
