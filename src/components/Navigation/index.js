@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import { useLocation } from "@reach/router";
-import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 import "./navigation.scss";
 
 const Navigation = () => {
