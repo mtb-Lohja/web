@@ -1,14 +1,6 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
-
 const path = require("path");
 
-exports.createPages = async ({ actions, graphql }) => {
-  const { createPage } = actions;
-
+exports.createPages = async ({ actions: {createPage}, graphql }) => {
   const blogPostTemplate = path.resolve(`src/templates/postTemplate.js`);
   const frontPageTemplate = path.resolve(`src/templates/frontPageTemplate.js`);
 

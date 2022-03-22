@@ -4,17 +4,8 @@ This is a static rewrite of the old legacy www.mtb-lohja.com web site.
 
 ## Development
 
-Make sure that you have the Gatsby CLI program installed:
-
 ```sh
-npm install --global gatsby-cli
-```
-
-Then you can run it by:
-
-```sh
-cd gatsby-example-site
-npm run develop
+yarn run develop
 ```
 
 ## Deploy
