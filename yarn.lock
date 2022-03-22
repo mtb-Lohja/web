@@ -7359,21 +7359,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-google-analytics@npm:^4.10.0":
-  version: 4.10.0
-  resolution: "gatsby-plugin-google-analytics@npm:4.10.0"
-  dependencies:
-    "@babel/runtime": ^7.15.4
-    minimatch: 3.0.4
-    web-vitals: ^1.1.2
-  peerDependencies:
-    gatsby: ^4.0.0-next
-    react: ^16.9.0 || ^17.0.0
-    react-dom: ^16.9.0 || ^17.0.0
-  checksum: 18154d8c167ea3c2a419dbc16c7f42e5dd6c339f5bb18eac2fe8ced5072e76d24c5be8d0a91abdd1eeb59f10e1818003d41f55fe7a7d8182c9ea107dbe5acef6
-  languageName: node
-  linkType: hard
-
 "gatsby-plugin-page-creator@npm:^4.10.1":
   version: 4.10.1
   resolution: "gatsby-plugin-page-creator@npm:4.10.1"
@@ -10880,7 +10865,6 @@ __metadata:
     gatsby: ^4.10.1
     gatsby-cli: ^4.10.1
     gatsby-parcel-config: ^0.1.0
-    gatsby-plugin-google-analytics: ^4.10.0
     gatsby-plugin-react-helmet: ^5.10.0
     gatsby-plugin-react-leaflet: ^3.0.3
     gatsby-plugin-sass: ^5.10.1
@@ -15424,13 +15408,6 @@ __metadata:
   version: 1.1.4
   resolution: "web-namespaces@npm:1.1.4"
   checksum: 5149842ccbfbc56fe4f8758957b3f8c8616a281874a5bb84aa1b305e4436a9bad853d21c629a7b8f174902449e1489c7a6c724fccf60965077c5636bd8aed42b
-  languageName: node
-  linkType: hard
-
-"web-vitals@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "web-vitals@npm:1.1.2"
-  checksum: 92071029089277166e11141b735831d9011e85737d32c1360034676db898ab0ca95f19041ee01904f2189ad6e711b9da6b17567e4831290a429a586c98bc573f
   languageName: node
   linkType: hard
 

@@ -1,16 +1,6 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": [],
-    "redirects": [{
-      "source": "/cgi-bin/*",
-      "destination": "http://foorumi.mtb-lohja.com",
-      "type": 302
-    },
-    {
-      "source": "/forum/*",
-      "destination": "http://foorumi.mtb-lohja.com",
-      "type": 302
-    }]
+    "ignore": []
   }
 }
