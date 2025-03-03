@@ -8,6 +8,8 @@ yarn-error.log
 # Build directory
 /public
 
+.direnv/
+
 # Yarn zero installs
 .yarn/*
 !.yarn/cache
