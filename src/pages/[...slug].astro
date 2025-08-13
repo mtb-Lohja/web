@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts');
+  
+  return allPosts.map(post => ({
+    params: { 
+      slug: post.data.path.startsWith('/') ? post.data.path.slice(1) : post.data.path 
+    },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const title = `MTB-Lohja toy - ${post.data.title}`;
+---
+
+<BaseLayout title={title}>
+  <div class="post-container">
+    <article class="post">
+      <header>
+        <h2>{post.data.title}</h2>
+        <p class="quiet author">
+          <i>
+            {post.data.author && `${post.data.author}, `}{post.data.date.toLocaleDateString('fi-FI')}
+          </i>
+        </p>
+      </header>
+      <div class="post-content">
+        <Content />
+      </div>
+    </article>
+  </div>
+</BaseLayout>

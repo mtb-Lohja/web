@@ -5,8 +5,12 @@
 node_modules
 yarn-error.log
 
-# Build directory
+# Build directories
 /public
+/dist
+
+# Astro build outputs and cache
+.astro/
 
 .direnv/
 

@@ -1,16 +1,22 @@
-import React from "react";
-import { Link } from "gatsby";
-import { useLocation } from "@reach/router";
-import "./navigation.scss";
+import React, { useState, useEffect } from "react";
+import "../Navigation/navigation.scss";
 
 const Navigation = () => {
-  const location = useLocation();
+  const [currentPath, setCurrentPath] = useState("");
 
-  const ListLink = ({ to, text, children, ...rest }) => (
+  useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+
+  const ListLink = ({ to, text, children, className, ...rest }) => (
     <li>
-      <Link activeClassName="nav-active" to={to} {...rest}>
+      <a 
+        href={to} 
+        className={className}
+        {...rest}
+      >
         {text}
-      </Link>
+      </a>
       {children}
     </li>
   );
@@ -66,7 +72,7 @@ const Navigation = () => {
   Object.keys(nav).forEach(path => {
     let cur = nav[path];
 
-    if (reg(cur, path).test(location.pathname)) {
+    if (reg(cur, path).test(currentPath)) {
       cur.active = true;
       subNav = cur.sub;
     }
@@ -75,7 +81,7 @@ const Navigation = () => {
     Object.keys(cur.sub || {}).forEach(subpath => {
       var subCur = cur.sub[subpath];
 
-      if (reg(subCur, subpath).test(location.pathname)) {
+      if (reg(subCur, subpath).test(currentPath)) {
         cur.active = true;
         subCur.active = true;
         subNav = cur.sub;

@@ -1,0 +1,28 @@
+---
+import headerImg from './header.jpg';
+import './header.scss';
+---
+
+<div
+  id="header"
+  style={{
+    margin: '0.8rem auto 0 auto',
+  }}
+>
+  <a href="/" style={{ color: '#000', textDecoration: 'none' }}>
+    <div
+      id="header-img"
+      style={{
+        width: '100%',
+        minHeight: '105px',
+        paddingBottom: '5%',
+        background: `no-repeat url(${headerImg.src})`,
+        backgroundSize: 'contain',
+      }}
+    />
+    <h1 id="header-txt" style={{ margin: 0 }}>
+      MTB-Lohja toy
+    </h1>
+  </a>
+  <slot />
+</div>

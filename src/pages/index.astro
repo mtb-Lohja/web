@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Get the latest post for the front page
+const allPosts = await getCollection('posts');
+const sortedPosts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const latestPost = sortedPosts[0];
+
+if (!latestPost) {
+  throw new Error("No posts found");
+}
+
+const { Content } = await latestPost.render();
+const title = `MTB-Lohja toy - ${latestPost.data.title}`;
+---
+
+<BaseLayout title={title}>
+  <div class="post-container">
+    <article class="post">
+      <header>
+        <h2>{latestPost.data.title}</h2>
+        <p class="quiet author">
+          <i>
+            {latestPost.data.author && `${latestPost.data.author}, `}{latestPost.data.date.toLocaleDateString('fi-FI')}
+          </i>
+        </p>
+      </header>
+      <div class="post-content">
+        <Content />
+      </div>
+    </article>
+  </div>
+</BaseLayout>

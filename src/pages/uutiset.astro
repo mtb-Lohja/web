@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Get all news posts
+const allPosts = await getCollection('posts');
+const newsPosts = allPosts
+  .filter(post => post.data.path.startsWith('/uutiset/'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="MTB-Lohja toy - Uutiset">
+  <div class="post-container">
+    <article class="post">
+      <header>
+        <h2>Uutiset</h2>
+      </header>
+      <div class="post-content">
+        <p>MTB-Lohjan uutisarkisto vuosien varrelta.</p>
+        <ul>
+          {newsPosts.map(post => (
+            <li>
+              <a href={post.data.path}>
+                <strong>{post.data.title}</strong>
+              </a>
+              <span class="quiet"> - {post.data.date.toLocaleDateString('fi-FI')}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </article>
+  </div>
+</BaseLayout>

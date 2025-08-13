@@ -1,0 +1,43 @@
+---
+import Header from '../components/Header/Header.astro';
+import Navigation from '../components/react/Navigation.jsx';
+import '../components/Layout/normalize.css';
+import '../components/Layout/typography.css';
+import '../components/Layout/styles.scss';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  keywords?: string;
+}
+
+const { 
+  title = "MTB-Lohja toy", 
+  description = "MTB-Lohja toy - maastopyöräilyä Lohjalla", 
+  keywords = "mtb, maastopyöräily" 
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content={description}>
+  <meta name="keywords" content={keywords}>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <title>{title}</title>
+</head>
+<body>
+  <div style="margin: 0 auto; max-width: 960px">
+    <Header>
+      <Navigation client:load />
+    </Header>
+    
+    <div>
+      <slot />
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AjopaikatMap from '../components/react/AjopaikatMap.jsx';
+---
+
+<BaseLayout title="MTB-Lohja toy - Ajopaikat">
+  <h2>MTB-Lohja toy ajopaikat</h2>
+  <p>
+    Noin vuonna 2012 alettiin kerätä ajopaikkojen nimiä yhdelle kartalle.
+    Loppuun asti ei päästy, mutta alla on kaikkein kuuluisimmat paikat.
+    Klikkaa alueita, polkuja, tai viittoja niin näet tarkemmat tiedot.
+  </p>
+  <AjopaikatMap client:only="react" />
+</BaseLayout>

@@ -21,9 +21,6 @@
           mkShell {
             buildInputs = [
               nodejs_24
-              yarn
-              # Not really used but might be in the future
-              bun
             ];
           };
       }
