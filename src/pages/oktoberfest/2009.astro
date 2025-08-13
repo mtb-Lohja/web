@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Get all posts for Oktoberfest 2009
+const allPosts = await getCollection('posts');
+const oktoberfest2009Posts = allPosts
+  .filter(post => post.data.path.startsWith('/oktoberfest/2009'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="MTB-Lohja toy - Oktoberfest 2009">
+  <div class="post-container">
+    <article class="post">
+      <header>
+        <h2>Oktoberfest 2009</h2>
+      </header>
+      <div class="post-content">
+        <p>MTB-Lohjan Oktoberfest-tapahtuma vuodelta 2009.</p>
+        <ul>
+          {oktoberfest2009Posts.map(post => (
+            <li>
+              <a href={post.data.path}>
+                <strong>{post.data.title}</strong>
+              </a>
+              <span class="quiet"> - {post.data.date.toLocaleDateString('fi-FI')}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </article>
+  </div>
+</BaseLayout>
