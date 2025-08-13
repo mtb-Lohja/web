@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { extractExcerpt } from '../utils/excerpt.js';
+
+export interface Props {
+  title: string;
+  description: string;
+  pathPrefix: string;
+  year?: string;
+}
+
+const { title, description, pathPrefix, year } = Astro.props;
+
+// Get all posts that match the path prefix and optional year
+const allPosts = await getCollection('posts');
+const filteredPosts = allPosts
+  .filter(post => {
+    if (year) {
+      return post.data.path.startsWith(`${pathPrefix}/${year}`);
+    }
+    return post.data.path.startsWith(pathPrefix);
+  })
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+// Render content to extract text for excerpts
+const postsWithExcerpts = await Promise.all(
+  filteredPosts.map(async (post) => {
+    const { Content } = await post.render();
+    // Extract raw content from the post body
+    const excerpt = extractExcerpt(post.body);
+    return { ...post, excerpt };
+  })
+);
+---
+
+<BaseLayout title={title}>
+  <div class="post-container">
+    <article class="post">
+      <header>
+        <h2>{title.replace('MTB-Lohja toy - ', '')}</h2>
+      </header>
+      <div class="post-content">
+        <p>{description}</p>
+        <div class="post-list">
+          {postsWithExcerpts.map(post => (
+            <div class="post-item">
+              <h3>
+                <a href={post.data.path}>
+                  {post.data.title}
+                </a>
+              </h3>
+              <p class="post-meta quiet">
+                {post.data.date.toLocaleDateString('fi-FI')}
+                {post.data.author && ` • ${post.data.author}`}
+              </p>
+              <p class="post-excerpt">{post.excerpt}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .post-list {
+    margin-top: 2rem;
+  }
+  
+  .post-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .post-item:last-child {
+    border-bottom: none;
+  }
+  
+  .post-item h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .post-item h3 a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .post-item h3 a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  
+  .post-meta {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .post-excerpt {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .quiet {
+    color: #888;
+  }
+</style>

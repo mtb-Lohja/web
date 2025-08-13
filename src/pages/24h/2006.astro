@@ -1,33 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-
-// Get all posts for 24h 2006
-const allPosts = await getCollection('posts');
-const year2006Posts = allPosts
-  .filter(post => post.data.path.startsWith('/24h/2006'))
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+import CategoryPage from '../../components/CategoryPage.astro';
 ---
 
-<BaseLayout title="MTB-Lohja toy - 24h 2006">
-  <div class="post-container">
-    <article class="post">
-      <header>
-        <h2>MTB-Lohja 24h 2006</h2>
-      </header>
-      <div class="post-content">
-        <p>MTB-Lohjan 24 tunnin ajotapahtuma vuodelta 2006.</p>
-        <ul>
-          {year2006Posts.map(post => (
-            <li>
-              <a href={post.data.path}>
-                <strong>{post.data.title}</strong>
-              </a>
-              <span class="quiet"> - {post.data.date.toLocaleDateString('fi-FI')}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </article>
-  </div>
-</BaseLayout>
+<CategoryPage 
+  title="MTB-Lohja toy - 24h 2006"
+  description="MTB-Lohjan 24 tunnin ajotapahtuma vuodelta 2006."
+  pathPrefix="/24h"
+  year="2006"
+/>
