@@ -20,7 +20,7 @@
           with pkgs;
           mkShell {
             buildInputs = [
-              nodejs_22
+              nodejs_24
               yarn
               # Not really used but might be in the future
               bun
