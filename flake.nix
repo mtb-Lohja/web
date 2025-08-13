@@ -21,6 +21,7 @@
           mkShell {
             buildInputs = [
               nodejs_24
+              firebase-tools
             ];
           };
       }
